@@ -119,6 +119,20 @@
       "Q_calculation": "0.18×0.95 + 0.22×0.98 + 0.20×1.00 + 0.18×0.90 + 0.12×0.85 + 0.10×0.98 = 0.949",
       "Q": 0.949,
       "business_outcome": "Decouple growth from carbon emissions, securing long-term license to operate and reducing energy costs by $45M annually."
+    },
+    {
+      "domain": "Autonomous AI Infrastructure Deployment (OpenClaw)",
+      "prompt": "You are orchestrating a cross-functional team of AI agents to deploy and manage OpenClaw agentic infrastructure across a global enterprise network. Your goal is to establish a secure, scalable, and cost-optimized foundation for agentic workflows.\n\n**AGENT 1 - Code Engineering Agent**: Automate the installation of OpenClaw using standard bootstrap scripts. Configure environment variables, API endpoints, and local database connections. Implement automated health checks and auto-restart policies for the OpenClaw daemon.\n\n**AGENT 2 - Compliance Monitoring Agent**: Audit the installation script and deployed binaries for security vulnerabilities. Verify that all agent communication follows the MCP (Model Context Protocol) and adheres to data residency regulations (GDPR, CCPA). Audit identity and access management (IAM) roles assigned to agents.\n\n**AGENT 3 - Financial Operations Agent**: Monitor compute resource consumption (CPU/Memory/GPU) for the OpenClaw nodes. Optimize node placement across hybrid cloud environments to minimize latency and cost. Project the 12-month TCO (Total Cost of Ownership) for the agentic infrastructure.\n\n**AGENT 4 - Meta-Agent**: Synthesize deployment logs, security audits, and cost projections into an \"Infrastructure Readiness Report\". Resolve conflicts between security lockdowns (Compliance) and developer agility (Code Engineering).\n\n**OUTCOMES DELIVERED**:\n- **Operational**: Deployment of 500+ OpenClaw nodes in <2 hours with 99.9% success rate.\n- **Security**: Zero critical vulnerabilities in the deployment pipeline; 100% compliance with corporate IAM policies.\n- **Financial**: 30% reduction in compute costs through dynamic resource allocation.\n- **Scalability**: Architecture verified to handle 10x increase in agent-to-agent message volume.\n\n**CONSTRAINTS**:\n- Deployment must not interrupt existing production workflows.\n- All agent telemetry must be encrypted in transit and at rest.\n- Minimum node uptime requirement: 99.99%.\n\n**VERIFICATION**: Use 'openclaw doctor' and 'openclaw status' to verify node health. Cross-reference node logs with centralized SIEM (Security Information and Event Management) for anomaly detection.",
+      "capabilities_leveraged": [
+        "Multi-agent orchestration for infrastructure-as-code",
+        "MCP protocol for standardized agent communication",
+        "Autonomous security auditing and compliance tracking",
+        "Inference-time scaling for complex infrastructure modeling",
+        "Autonomous execution with tiered governance"
+      ],
+      "Q_calculation": "0.18×1.00 + 0.22×0.98 + 0.20×1.00 + 0.18×0.95 + 0.12×0.90 + 0.10×1.00 = 0.9826",
+      "Q": 0.983,
+      "business_outcome": "Establish a secure and scalable 'Agent Backbone' for the enterprise, reducing the time-to-market for new agentic applications from months to days."
     }
   ],
   "Cross_Domain_Meta_Prompt": {
