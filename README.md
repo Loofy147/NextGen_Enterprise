@@ -16,6 +16,10 @@ The `analysis.json` file contains detailed prompts for several domains:
 3. **Multimodal Scientific Discovery**: Hypothesizing breakthrough gene editing specificity.
 4. **Autonomous Financial Operations**: AI-driven CFO operations and financial close cycles.
 5. **Adaptive Learning System Design**: Self-optimizing personalized educational platforms.
+6. **Real-Time Supply Chain Optimization**: Agentic supply chain control tower operations.
+
+## Meta-Orchestration
+- **Universal Enterprise Agent Orchestrator**: A meta-prompt for coordinating domain-specific agents to achieve complex business objectives.
 
 ## Repository Structure
 - `analysis.json`: The core analysis and prompt collection.
