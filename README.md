@@ -18,9 +18,13 @@ The `analysis.json` file contains detailed prompts for several domains:
 5. **Adaptive Learning System Design**: Self-optimizing personalized educational platforms.
 6. **Real-Time Supply Chain Optimization**: Agentic supply chain control tower operations.
 
-## Meta-Orchestration
-- **Universal Enterprise Agent Orchestrator**: A meta-prompt for coordinating domain-specific agents to achieve complex business objectives.
+## Meta-Orchestration & Governance
+The enterprise utilizes a **Universal Enterprise Agent Orchestrator** to coordinate across domains.
+
+Detailed documentation on the orchestration protocol, agent registry, and decision governance can be found in:
+- [**ORCHESTRATION.md**](./ORCHESTRATION.md)
 
 ## Repository Structure
 - `analysis.json`: The core analysis and prompt collection.
+- `ORCHESTRATION.md`: Detailed orchestration and meta-agent documentation.
 - `README.md`: This documentation.
